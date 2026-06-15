@@ -1,5 +1,26 @@
 {
+  "name": "strike-genai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruvsorout/GenAI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/dhruvsorout/GenAI/issues"
+  },
+  "homepage": "https://github.com/dhruvsorout/GenAI#readme",
   "dependencies": {
-    "dotenv": "^17.4.2"
+    "@google/genai": "^2.8.0",
+    "dotenv": "^17.4.2",
+    "readline-sync": "^1.4.10"
   }
 }
